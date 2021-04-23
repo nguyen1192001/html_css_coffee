@@ -1,0 +1,242 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+html{
+    font-family: Helvetica,Arial, sans-serif;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    scroll-behavior: smooth;
+}
+.clear{
+    clear: both;
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    appearance: none;
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    line-height: 46px;
+    padding: 0 48px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#nav li:hover a{
+    background-color: #ccc;
+    color: #000;
+}
+#main #slider{
+    color: #fff;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(../slider/coffee.jpg) top center / cover no-repeat;
+    width: 100%;
+}
+#slider .slider-name{
+    font-size: 90px;
+}
+
+#slider .slider-time{
+    font-size: 15px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #EA8025;
+    color: #fff;
+   
+}
+#slider .slider-adress{
+    font-size: 15px;
+    float: right;
+    padding: 12px 24px;
+}
+#container{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container .about-name{
+    font-size: 18px;
+    margin: 76px 264px;
+    text-align: center;
+   background-color: #000;
+   color: #fff;
+
+}
+#container .about-intrusment{
+    font-size: 18px;
+    margin: 18px 0;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+#container #about-slogant{
+    font-size: 18px;
+    margin: 16px 0;
+    padding: 16px 8px;
+    background-color: #ccc;
+    opacity: 0.6;
+   border-left: 6px solid #EA8025;
+}
+#container #about-slogant .slogant{
+    margin: 18px 0;
+   font-style: italic;
+}
+#container #about-slogant .author{
+    margin: 18px 0;
+}
+#container .about-address,
+#container .about-time{
+    margin: 18px 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+#content-menu .about-menu{
+    font-size: 18px;
+    margin: 76px 298px;
+    text-align: center;
+   background-color: #000;
+   color: #fff;
+}
+.row{
+    width: auto;
+}
+.col{
+    float: left;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.col-part{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+#content-menu .menu-img{
+    width: 100% ;
+}
+#content-menu .menu-name{
+    padding-top: 16px;
+    font-size: 18px;
+}
+#content-menu .menu-prince{
+    padding-top: 40px;
+}
+#content-menu .menu-btn-moreadd,
+#content-menu .menu-btn-much{
+    text-decoration: none;
+    line-height: 3;
+    font-weight: 600;
+   
+    font-size: 16px;
+}
+#content-menu .menu-btn-much{
+    padding: 10px 15px;
+    background-color: #EA8025;
+    color: #fff;
+}
+#content-menu .menu-btn-moreadd{
+    padding: 6px 30px;
+   border: 4px solid #EA8025;
+   color: #EA8025;
+}
+#content-place{
+
+}
+#content-place .place-name{
+    font-size: 18px;
+    margin: 76px 260px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+#content-place .place-section{
+   width: auto;
+   margin-left: 52px;
+}
+#content-place .place-introduce{
+    float: left;
+    width: 50%;
+    padding: 8px 30px;
+    background-color: #EA8025;
+    color: #fff;
+}
+#content-place .place-img{
+    width: 47%;
+}
+#content-place .place-introduce-name{
+    margin-bottom: 15px;
+}
+#content-place .place-introduce-content{
+    font-size: 16px;
+}
+#content-book{
+
+}
+#content-book .book-name{
+    font-size: 18px;
+    margin: 76px 286px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.book-contain-btn{
+    background-color: #000;
+}
+.book-col{
+    padding: 8px 8px;
+}
+.book-btn{
+    font-size: 16px;
+    width: 100%;
+    padding: 16px 16px;
+    
+}
+.book-submit{
+    padding: 8px 8px;
+    text-align: center;
+}
+#content-book .book-send-btn{
+   background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 8px;
+}
+#content-book .book-send-btn:hover{
+    cursor: pointer;
+    background-color: #EA8025;
+    color: #fff;
+}
+#footer{
+    margin-top: 46px;
+    width: auto;
+}
+.footer-group{
+    background-color: #EA8025;
+    padding: 16px 16px ;
+    text-align: center;
+}
+.footer-group-name{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: fantasy,Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+.footer-member p{
+    padding: 8px 0;
+    font-style: italic;
+}

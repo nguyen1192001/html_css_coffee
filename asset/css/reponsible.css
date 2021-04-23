@@ -1,0 +1,56 @@
+/* pc */
+@media (min-width:64em){
+    #container{
+        width: 700px;
+    }
+}
+/* tablet and mobile */
+@media (max-width:63.9375em){
+    #content-place .place-introduce{
+        float: none;
+        width: 100%;
+     }
+     #content-place .place-img {
+         width: 100%;
+     }
+     #content-place .place-name,
+     #content-menu .about-menu,
+     #container .about-name,
+     #content-book .book-name {
+         margin: 76px 0;
+     }
+}
+/* tablet */
+@media(min-width: 46.25em) and (max-width:63.9375em){
+    #nav li a{
+       padding: 0 36px;
+    }
+    #content-place .place-introduce {
+        padding: 35px 30px;
+    }
+}
+/* mobile */
+@media (max-width:46.1875em){
+    #main{
+       width: auto;
+    }
+    #nav .nav-about,
+    #nav .nav-menu{
+        display: none;
+    }
+    #nav li a{
+        font-size: 12px;
+        padding: 0 16px;
+    }
+    .s-col-full{
+        width: 100%;
+        padding-top: 16px;
+    }
+    #content-menu .menu-prince{
+        padding-bottom: 24px;
+    }
+    #content-menu .menu-btn-moreadd{
+        padding: 6px 0;
+    }
+    
+}
